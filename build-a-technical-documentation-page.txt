@@ -1,0 +1,295 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Java Documentation</title>
+  </head>
+  <body>
+    <nav id="navbar">
+    <header>Simple Java Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#What_is_Java?">What is Java?</a></li>
+        <li><a class="nav-link" href="#Key_Features_of_Java">Key Features of Java</a></li>
+        <li><a class="nav-link" href="#Basic_Java_Syntax">Basic Java Syntax</a></li>
+        <li><a class="nav-link" href="#Java_Development_Environment_(JDE)">Java Development Environment (JDE)</a></li>
+        <li><a class="nav-link" href="#Try_to_Write_a_Java_Program!">Try to Write a Java Program!</a></li>
+        <li><a class="nav-link" href="#References">References</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+
+      <section class="main-section sectionone" id="What_is_Java?">
+        <header id="What_is_Java?">What is Java?</header>
+        <p>In 1995, Sun Microsystems introduced Java, a programming language and computing platform. From modest origins, it has grown to power a significant portion of the modern digital world by offering the dependable platform that many services and applications are based on. Additionally, Java is still necessary for cutting-edge, futuristic goods and online services.</p>
+        <p>Even though the majority of contemporary Java applications integrate the runtime and application, numerous programs and even some websites still require desktop Java to operate. This website, Java.com, is meant for users who might still need Java for desktop programs, particularly those that target Java 8. Instead, corporate users should visit <a href="https://www.oracle.com/java/">oracle.com/java</a> for further information, and developers and people interested in learning Java programming can visit <a href="https://dev.java">dev.java</a>.</p>
+      </section>
+
+      <section class="main-section sectiontwo" id="Key_Features_of_Java">
+        <header id="Key_Features_of_Java">Key Features of Java</header>
+        <p>Making the Java programming language portable, easy to use, and safe was its main goal upon conception. In addition, the popularity of this language is greatly influenced by a few other outstanding qualities. Java buzzwords are another name for the features of Java.</p>
+        <p>The following is a summary of the key characteristics of the Java language.</p>
+        <ol>
+          <li>Simple</li>
+          <p>Java is a straightforward programming language that removes the complexity of earlier computer languages, making it easy to learn. Actually, Javasoft designers intentionally kept things simple because their product must function on electronic devices with limited memory and resources. Because Java has the same grammar as C and C++, programmers moving to Java won't encounter any syntactical issues.</p>
+          <li>Object-Oriented</li>
+          <p>As an object-oriented programming language, Java allows for the writing of all code in terms of classes and objects. What is an Object, then? The object is nothing more than a distinct real-world entity that can stand in for any person, location, or thing. There is a state and behavior connected to every object in our immediate vicinity.
+</p>
+          <li>Platform Independent</li>
+          <p>The goal of Javasoft's design team is to create a language that functions across all platforms. Platform refers to a certain kind of hardware and operating system here. Programmers can create their code in Java on any system with any configuration and run it on another machine with a different setup. 
+</p>
+          <li>Portable</li>
+          <p>Java is portable because of its platform-independent feature and WORA (Write Once Run Anywhere) philosophy. With just one line of code, developers may now achieve the same output on any system by utilizing the Java programming language. This is caused by bytecode and JVM. Assuming you created any Java code, it must first be translated into a bytecode that the JVM can only read. For various platforms, we have multiple JVM versions. Every operating system has a unique version of JVM, including Windows, Linux, and macOS. 
+</p>
+          <li>Robust</li>
+          <p>Because the Java programming language is robust, it can withstand unexpected program termination. First, it contains an extremely useful feature called Exception Handling. This is the reason for two things. In low-level languages, an exception will cause the program to crash; however, in Java programming, it won't cause any harm.</p>
+          <p>Java's memory management features are another factor in its strength. In contrast to other low-level languages, Java comes with a built-in garbage collector called JVM that gathers all of the variables that aren't being used. A unique JVM program called the garbage collector periodically scans the memory for any variables or objects that aren't being used and eliminates them to make room in the system. </p>
+          <li>Secure</li>
+          <p>These days, security is a top priority for all applications. Since all devices are currently linked to one another via the internet, hacking is now a possibility. Furthermore, security of some kind is required for our Java-based program. Thus, Java offers programmers additional security features. Java can be used to manage or reduce security issues such as malware threats, tampering, eavesdropping, and impersonation. They can use the encryption and decryption features to protect your data from online meddling and eavesdropping.</p>
+          <li>Interpreted</li>
+          <p>You've learned that programming languages can utilize either an interpreter or a compiler, but the Java programming language employs both. When a Java application is compiled, bytecode files are produced, which the JVM interprets when the program runs. JIT compilers are also used by JVM in addition to this, which speeds up processing.</p>
+          <li>Multi-Threaded</li>
+          <p>A thread is a resource-sharing, lightweight, autonomous subprocess of a running program, or process. Additionally, multithreading refers to the simultaneous operation of many threads. Many applications allow you to have many jobs open at once. One such example is Google Docs, which allows you to have spell check and autocorrect open as you type. 
+</p>
+        </ol>
+      </section>
+
+      <section class="main-section sectionthree" id="Basic_Java_Syntax">
+        <header id="Basic_Java_Syntax">Basic Java Syntax</header>
+        <p>Regarding Java programs, it's critical to remember the following.</p>
+        <ul>
+          <li><span class="bold">Case Sensitivity</span> - Java is case sensitive, therefore an identifier like Hello and hello would mean different things in the language.</li>
+          <li><span class="bold">Class Names</span> - The first letter of each class name should be written in upper case. The first letter of each inner word in a class name composed of multiple words should be capitalized.</li>
+          <li><span class="bold">Method Names</span> - Every method name needs to begin with a lowercase letter. If the method's name is composed of multiple words, the initial letter of each inner word should be capitalized.</li>
+          <li><span class="bold">Program File Name</span> - The program file's name and the class name must exactly match. Because Java is case sensitive, you should save the file using the class name and add ".java" to the end of the name (your application will not compile if the file name and the class name do not match).</li>
+          <li><span class="bold">public static void main(String args[])</span> - Every Java program must include the main() method, which is where processing of the program begins.</li>
+        </ul>
+        <p>Here are some examples of simple java programs with proper syntax:</p>
+        <p>A program printing "Hello, World!":</p>
+        <div>
+          <code class="code-block">
+      public class HelloWorld { 
+        public static void main(String[] args) {
+          System.out.println("Hello, World!");
+        }
+      }
+          </code>
+        </div>
+        <p>A program adding two numbers a and b:</p>
+        <div>
+          <code class="code-block">
+      public class AddTwoNumbers {
+        public static void main(String[] args) {
+          int a = 5;
+          int b = 10;
+          int sum = a + b;
+          System.out.println("Sum: " + sum);
+        }
+      }
+          </code>
+        </div>
+        <p>A program multiplying two numbers a and b:</p>
+        <div>
+          <code class="code-block">
+      public class MultiplyTwoNumbers {
+        public static void main(String[] args) {
+          int a = 3;
+          int b = 4;
+          int product = a * b;
+          System.out.println("Product: " + product);
+        }
+      }
+          </code>
+        </div>
+        <p>A program printing numbers 1 to 5:</p>
+        <div>
+          <code class="code-block">
+      public class PrintNumbers {
+        public static void main(String[] args) {
+          for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+          }
+        }
+      }
+          </code>
+        </div>
+      </section>
+
+      <section class="main-section sectionfour" id="Java_Development_Environment_(JDE)">
+        <header id="Java_Development_Environment_(JDE)">Java Development Environment (JDE)</header>
+        <p>You will need the following in order to begin programming in Java:</p>
+        <ol>
+          <li><span class="bold">Java Development Kit (JDK)</span>: The JDK includes the Java Runtime Environment (JRE), a compiler (javac), and other tools required for Java development.</li>
+          <li><span class="bold">Integrated Development Environment (IDE)</span>: Popular Java IDEs include IntelliJ IDEA, Eclipse, and NetBeans. These tools provide code editors, debuggers, and other features that help with software development.</li>
+        </ol>
+      </section>
+
+      <section class="main-section sectionfive" id="Try_to_Write_a_Java_Program!">
+        <header id="Try_to_Write_a_Java_Program!">Try to Write a Java Program!</header>
+        <p>Follow these steps for you to program your first Java program!</p>
+        <ol>
+          <li>Download and install the latest JDK from the official <a href="https://www.oracle.com/java/technologies/downloads/?er=221886">Oracle website</a> or OpenJDK.</li>
+          <li>Choose an IDE like NetBeans and IntelliJ and set it up on your machine.</li>
+          <li>Create a file named <code>HelloWorld.java.</code></li>
+          <li>Write the code shown below:</li>
+          <div class="code-block">
+            <code>
+      public class HelloWorld {
+        public static void main(String[] args) {
+          System.out.println("Welcome to Java programming!");
+        }
+      }
+            </code>
+          </div>
+          <li>Compile and run the code in your chosen IDE.</li>
+          <li>You should see a text "Welcome to Java programming!" pop up in your IDE.</li>
+        </ol>
+        <p>Congratulations! You now have programmed your first Java program!</p>
+        <p>If you want to learn more about Java, you should check out this <a href="https://www.tutorialspoint.com/java/index.htm">website!</a></p>
+      </section>
+
+      <section class="main-section sectionsix" id="References">
+        <header id="References">References</header>
+        <p>https://www.java.com/en/download/help/whatis_java.html</p>
+        <p>https://www.javatpoint.com/features-of-java</p>
+        <p>https://www.interviewbit.com/blog/features-of-java/</p>
+        <p>https://www.tutorialspoint.com/java/java_basic_syntax.htm</p>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  min-width: 400px;
+  color: #4d4e4c;
+  background-color: #ffffe0;
+  font-family: 'Open Sans', Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+#main-doc {
+  position: relative;
+  margin-left: 320px;
+  padding: 20px;
+  margin-bottom: 110px;
+  min-width: 550px;
+  max-width: 1300px;
+}
+
+section header {
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 35px;
+}
+
+.sectionone header {
+  padding-top: 0 !IMPORTANT;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 11, 11, 0.9);
+}
+
+#navbar header {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 16px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e4c;
+  border-top: 1px dashed;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e4c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.code-block {
+  margin-left: -20px;
+  width: 100%;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 45px;
+  min-width: 233px;
+  white-space: pre;
+}
+
+.sectiontwo li, .bold {
+  font-weight: bold;
+}
+
+section a:hover {
+  color: #4d4e4c;
+  transition: 0.7s;
+}
+
+section a:link {
+  color: #222222 !IMPORTANT;
+}
+
+.sectionsix p {
+  margin-left: 30px;
+  padding: 0;
+  border: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+** end of undefined **
+

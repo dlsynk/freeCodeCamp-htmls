@@ -1,0 +1,334 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+      href="styles.css" 
+      rel="stylesheet"
+      >
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins|Teachers|Oswald" 
+      rel="stylesheet"
+      >
+    <title>Neatflex Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-left">
+        <img id="header-img" src="https://static.vecteezy.com/system/resources/thumbnails/022/503/389/small/letter-n-pink-alphabet-glossy-png.png"> 
+        <h1 class="neatflex">Neatflex: Watch, Binge, Binge More</h1>
+      </div>
+      <nav id="nav-bar">
+        <p><a class="nav-link" href="#features">Features</a></p>
+        <p><a class="nav-link" href="#reviews">Reviews</a></p>
+        <p><a class="nav-link" href="#form">Register</a></p>
+      </nav>
+    </header>
+    <h2 class="description">All the Shows You Love, All in One Place, Just like Netflix!</h2>
+    <hr></hr>
+    <h3 id="features">Why Neatflex? Why not Netflix?!</h3>
+    <ul class="features-ul">
+      <li>
+        <span class="bold">Half the Price, Double the Value:</span> Netflix costs up to $19.99/month. Neatflex is only $4.99/month — save big without sacrificing entertainment!
+      </li>
+      <li>
+        <span class="bold">More Content, More Choices:</span> Neatflex offers a wider variety of shows, movies, and originals than Netflix, with new content added every week.
+      </li>
+      <li>
+        <span class="bold">Flexible Plans:</span> No contracts, no strings attached. Pause or cancel your subscription anytime without penalties.
+      </li>
+    </ul>
+    <hr></hr>
+    <h3 id="reviews">Early testers' opinions about Neatflex:</h3>
+    <ul class="reviews-ul">
+      <li>
+        <i>"Neatflex has more shows at a fraction of the price — I’m never going back to Netflix!"</i>
+        <span class="bold">- Kong Tibe</span>
+      </li>
+      <li>
+        <i>"Better recommendations, more options, and lower costs. Neatflex wins every time!"</i>
+        <span class="bold">- Uncle Ry</span>
+      </li>
+      <li>
+        <i>"I switched from Netflix to Neatflex and saved $15 a month — plus, I love their originals!"</i>
+        <span class="bold">- MaloopitOn</span>
+      </li>
+    </ul>
+    <hr></hr>
+    <div class="iframe-div">
+      <iframe 
+        id="video" 
+        src="https://youtu.be/uWtZ7DXaEyw?si=7XajaoUOQc7shRrf"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <p id="register-p"><span class="bold">Sign Up Today and Get Your First Month Free:</span> Try us risk-free and see for yourself why Neatflex is the better choice!</p>
+    <p id="register-p">Start your Free Trial Today!</p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" >
+      <input
+        name="email"
+        id="email" 
+        type="email" 
+        placeholder="Type your email here" 
+        >
+      <input 
+        id="submit" 
+        type="submit"
+        value="Register Now!" 
+        >
+    </form>
+    <hr></hr>
+    <footer>Neatflex — Entertainment that makes sense. © Copyright 2024</footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 120px;
+  scroll-behavior: smooth;
+}
+
+html, body {
+  color: #1D1C1A;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 20px;
+  background-color: #FFC0CB;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+.neatflex {
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#header-img {
+  height: 45px; 
+  width: auto;
+}
+
+#nav-bar {
+  display: flex; 
+  gap: 50px; 
+  align-items: center;
+}
+
+#nav-bar p {
+  font-family: Poppins, sans-serif;
+  font-size: 19px;
+  padding-right: 30px;
+  margin: 3% 0;
+  font-weight: bold;
+}
+
+#nav-bar a {
+  color: #1D1C1A;
+  text-decoration: none;
+}
+
+body {
+  background-color: #FAF8F6;
+  padding-top: 130px;
+}
+
+.description {
+  font-family: Poppins, sans-serif;
+  font-size: 75px;
+  padding: 5px 200px;
+  text-align: center;
+}
+
+#features, #reviews {
+  font-family: Teachers, sans-serif;
+  font-size: 40px;
+  margin: 50px auto 30px 100px;
+}
+
+.features-ul, .reviews-ul {
+  list-style: none;
+}
+
+.features-ul li, .reviews-ul li {
+  font-family: Teachers, sans-serif;
+  font-size: 25px;
+}
+
+.features-ul li {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 120px;
+  text-align: justify;
+}
+
+.reviews-ul li {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 120px;
+  text-align: center;
+}
+
+.features-ul li:last-of-type, .reviews-ul li:last-of-type {
+  margin-bottom: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.iframe-div {
+  display: flex; 
+  justify-content: center; 
+  margin: 80px 0 30px 0;
+}
+
+#video {
+  width: 640px;
+  height: 360px;
+  border: none;
+}
+
+#register-p {
+  text-align: center;
+  font-family: Teachers, sans-serif;
+}
+
+#register-p:first-of-type {
+  font-size: 30px;
+  margin: 0 100px 0 100px;
+}
+
+#register-p:last-of-type {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto 30px auto;
+}
+
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; 
+}
+
+#email, #submit {
+  width: 350px; 
+  padding: 10px; 
+  font-size: 16px; 
+  margin: 0 0 5px 0; 
+}
+
+#submit {
+  background-color: #FFC0CB;
+  color: #1D1C1A; 
+  border: none; 
+  cursor: grab; 
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #FFC0CB; 
+  color: #1D1C1A; 
+  text-align: center; 
+  padding: 20px 0; 
+  font-family: Poppins, sans-serif; 
+  font-size: 18px; 
+  position: relative; 
+  width: 100%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+  border: none; 
+  height: 2px; 
+  background-color: #FFC0CB; 
+  margin: 40px auto; 
+  width: 80%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .header-left {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  #header-img {
+    height: 35px;
+  }
+
+  #nav-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #nav-bar p {
+    font-size: 16px;
+    padding-right: 0;
+  }
+
+  /* Description */
+  .description {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  #features, #reviews {
+    text-align: center;
+    margin: 20% auto;
+  }
+}
+
+** end of undefined **
+

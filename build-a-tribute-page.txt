@@ -1,0 +1,145 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Tribute to Emman Nimedez" />
+    <title>A Tribute to Emman Nimedez: A Filipino YouTuber</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="box">
+    <main id="main">
+      <h1 id="title">A Tribute to Emman Nimedez</h1>
+      <p id="title-caption">An icon who inspired thousands of videographers.</p>
+      
+      <div id="boxtwo">
+      <div id="img-div">
+        <p>‎ </p>
+        <img id="image" alt="A picture of Emman Nimedez" src="https://images.gmanews.tv/webpics/2020/12/Screen_Shot_2020-12-01_at_7_2020_12_01_19_18_58.png">
+        <div id="img-caption"><p><span class="bold">Emmanuel Luis Dolores Nimedez</span>, shown above, was a Filipino YouTuber, director, filmmaker, and singer known for his short films and songs.</p></div>
+        <p>‎ </p>
+      </div>
+      </div>
+
+      <div class="divider medium"></div>
+
+      <section id="tribute-info">
+        <p class="tribute-title bold">The Journey of Emman Nimedez</p>
+        <p>He started his YouTube journey 12 years ago (December 2011), creating random funny videos similar to videos you see on the old Vine app. Gradually, he started to create skits or short films as him being the main actor.</p>
+        <p>After creating and uploading multiple short films, his channel gained lots of views and subscribers. One main film that helped him gain his audience is a video entitled <a id="vid-ni-emman" href="https://youtu.be/wBE63Rn670U?si=QrvI65sgVgD1hKnA">"Pambansang Oppa | The Summoning".</a></p>
+        <p>He then met lots of other Filipino YouTubers like John Ryan Santos, RogerRaker, and CongTV. These YouTubers hang out a lot, making each other their "content material" for their vlogs. Eventually, around December 2018, they lived in the same condominium which made them create more vlogs to upload on their YouTube channels. They also called themselves the "PINOY BIG BLAGER".</p>
+        <p>With the help of his friends, Emman's YouTube career prospered. He was averaging around 300k views per video and gained many subscribers (2.82 million as of August 2024). Emman was consistent throughout his uploads, making his audience laugh and entertained while watching his vlogs.</p>
+        <p>At some point, Emman felt burned out from creating his vlogs which made him branch out to other hobbies. In a vlog, he told his audience that he would like to try to create music. This made him reach out to Kiyo, a Filipino indie and hip-hop singer. With Kiyo, he managed to create his first song: <a id="kanta-ni-emman" href="https://youtu.be/RX3BaiUZqYU?si=ZEux_bSvdfSLSun_">Teka Lang</a>.</p>
+        <p>His career was set in stone, he can create vlogs while also creating his own music! It was a dream wanted by lots of aspiring Filipino YouTubers, but it was reached by Emman through his efforts and perseverance.</p>
+        <p>Unfortunately, in May 17, 2020, he uploaded a YouTube video titled <a id="news-ni-emman" href="https://youtu.be/F-Nxy8EP6Hc?si=i3jgDBjxk2-H_vaD">"KAILANGAN NIYO NA RIN MALAMAN"</a>. In the video, he told his audience that he was sick for a while, causing the doctors to discover that he has acute myeloid leukemia. Lots of people, including his co-YouTubers, friends, and family, offered their prayers towards Emman, hoping that he will heal from his sickness.</p>
+        <p>Despite this, Emman still produced lots of vlogs and songs for his channel. The energy he had before was still there, as if he does not have an idea about his sickness at all. Sadly, in August 16, 2020, his death was announced.</p>
+        <p>Many people mourned for him, especially his family and friends. One particular friend group that stood out is the aforementiond PINOY BIG BLAGER. They were there for him through thick and thin and treated Emman as if he was their sibling.</p>
+        <p>After his death, a final vlog was uploaded titled <a id="lastvlog" href="https://youtu.be/zofV2M1hFeQ?si=3BJDIxjavojVhYWI">"LAST VLOG"</a>. The channel also uploaded a final song called <a href="https://youtu.be/p8Y1hT3CxP8?si=DD8Hi6-FFbSg8O_Q">"Simula"</a> with the help of Awi Columna, Kiyo and Allison Shore.</p>
+      </section>
+
+      <div class="divider medium"></div>
+
+      <p id="footer">If you want to see his videos and songs, you can go to his <a class="bold" target="_blank" id="tribute-link" href="https://www.youtube.com/emmannimedez">Youtube channel!</a></p>
+      <br>
+    </main>
+    </div>
+  </body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Tahoma;
+}
+
+#title, #title-caption {
+  text-align: center;
+}
+
+#title {
+  padding: 20px 0 0 0;
+  margin: 0;
+  border: 0;
+}
+
+#title-caption {
+  font-size: 13px;
+  margin: 5px;
+}
+
+#box {
+  background-color: #BFD4DB;
+}
+
+#boxtwo {
+  background-color: #DBE7F3;
+  width:95%;
+  margin: auto;
+}
+
+img {
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-left: 5px;
+  padding-right: 10px;
+  width: 85%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: grayscale(35%);
+}
+
+#img-caption {
+  padding-top: 0;
+  border-top: 0;
+  margin-top: 0;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+section > p {
+  text-indent: 25px;
+  margin: 25px 30px;
+  text-align: justify;
+}
+
+.tribute-title {
+  text-align: center;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.divider {
+  border-bottom: 3px solid #2C2D2D;
+  margin: 2px 10px;
+}
+
+.medium {
+  height: 5px;
+}
+
+#footer {
+  text-align: center;
+}
+
+** end of undefined **
+

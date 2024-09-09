@@ -1,0 +1,145 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">UST CICS Student Survey Form</h1>
+    <p id="description">Thank you for taking the time to answer this survey!</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name <input type="text" id="name" placeholder="Enter your name here" required></label>
+        <label for="email" id="email-label">Email <input type="email" id="email" placeholder="Enter your email here" required></label>
+        <label for="number" id="number-label">Age (not required) <input type="number" id="number" min="13" max="110" placeholder="Age"></label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown" class="dropdown">What program are you taking right now?
+          <select id="dropdown" required>
+            <option value="">Select a program!</option>
+            <option value="BSCS">BS Computer Science</option>
+            <option value="BSIS">BS Information Systems</option>
+            <option value="BSIT">BS Information Technology</option>
+            <option value="OT">Other</option>
+          </select>
+        </label>
+        <label class="year-level">What year are you right now? (REQUIRED)</label>
+        <label for="first-year" class="first-year"><input id="first-year" name="year-level" type="radio" class="inline" value="1" checked> First Year</label>
+        <label for="second-year"><input id="second-year" name="year-level" type="radio" value="2" class="inline"> Second Year</label>
+        <label for="third-year"><input id="third-year" name="year-level" type="radio" value="3" class="inline"> Third Year</label>
+        <label for="fourth-year"><input id="fourth-year" name="year-level" type="radio" value="4" class="inline"> Fourth Year</label>
+        <label class="reason">Why did you choose your current program? (REQUIRED: Select all that apply)</label>
+        <label for="check-one" class="check-one"><input type="checkbox" id="check-one" value="1" class="inline"> This is my dream/passion!</label>
+        <label for="check-two"><input type="checkbox" id="check-two" value="2" class="inline"> I love games; therefore, I love computers.</label>
+        <label for="check-three"><input type="checkbox" id="check-three" value="3" class="inline"> I heard that computer programs give large salaries.</label>
+        <label for="check-four"><input type="checkbox" id="check-four" value="4" class="inline"> I was forced by my family. </label>
+        <label for="check-five"><input type="checkbox" id="check-five" value="5" class="inline" checked> No reason at all.</label>
+      </fieldset>
+      <fieldset>
+        <label for="suggestions">Any suggestions or comments about the survey form?
+          <textarea id="suggestions" rows="3" cols="50" placeholder="I really like this survey form, I'm so proud of whoever created this form. They deserve a JolliBini Meal."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: #FFFFCE;
+  font-family: Verdana;
+  font-size: 16px;
+  margin: 35px 35px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+  font-family: Helvetica;
+  font-size: 35px;
+}
+
+p {
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+form {
+  width: auto;
+  max-width: auto;
+  min-width: auto;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 20px 0;
+  border-bottom: 3px solid #d26466;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #cfcfc4;
+  border: 2px solid black;
+  min-width: 300px;
+}
+
+input {
+  background-color: #f9f6f2;
+  border: 1px solid black;
+}
+
+label {
+  display: block;
+}
+
+.inline {
+  display: inline;
+  width: unset;
+  margin: 0 0;
+  vertical-align: middle;
+}
+
+input {
+  margin-bottom: 15px; 
+}
+
+.year-level {
+  margin: 20px 0 0 0;
+}
+
+.reason {
+  margin: 14px 0 0 0;
+}
+
+.first-year, .check-one {
+  margin: 5px 0 0 0;
+}
+
+** end of undefined **
+
